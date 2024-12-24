@@ -1,0 +1,21 @@
+{
+	"name": "jarettehall",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"husky": ">=6",
+		"lint-staged": ">=10",
+		"prettier": "^3.4.2"
+	},
+	"lint-staged": {
+		"*.{html,css}": "prettier --write"
+	},
+	"scripts": {
+		"prepare": "husky"
+	},
+	"prettier": {
+		"useTabs": true,
+		"printWidth": 120
+	}
+}
